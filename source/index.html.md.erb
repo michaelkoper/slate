@@ -1,0 +1,53 @@
+---
+title: API Reference
+
+language_tabs: # must be one of https://git.io/vQNgJ
+  - shell: cURL
+  - ruby: Ruby
+
+toc_footers:
+  - <a href='#'>Sign Up for a Developer Key</a>
+
+search: true
+
+---
+
+# Introduction
+
+Welcome to the Nusii API! You can use our API to access Nusii API endpoints. All endpoint URLs begin with `https://app.nusii.com/api/v2/`. All requests must be serialized in JSON and Nusii uses the [jsonapi.org](http://jsonapi.org/) specification.
+
+
+# Authentication
+
+> We offer a token based authentication. You can find your API access token [here](https://app.nusii.com). Tokens need to be added in the HTTP_AUTHORIZATION header as `Token token=YOUR_API_KEY`
+
+
+```shell
+# With shell, you can just pass the correct header with each request
+curl -H 'User-Agent: Your App Name (www.yourapp.com)' \
+  -H 'Content-Type: application/json' \
+  -H "Authorization: Token token=YOUR_API_KEY" \
+  "https://app.nusii.com/api/v2/proposals" 
+```
+
+> Make sure to replace `YOUR_API_KEY` with your API key.
+
+Nusii expects the API key to be included in all API requests to the server in a header that looks like the following:
+
+`Authorization: Token token=YOUR_API_KEY`
+
+<aside class="notice">
+  You must replace <code>YOUR_API_KEY</code> with your personal API key.
+</aside>
+
+<%= partial("includes/errors") %>
+<%= partial("includes/rate_limiting") %>
+<%= partial("includes/pagination") %>
+
+<%= partial("includes/resources/account") %>
+<%= partial("includes/resources/clients") %>
+<%= partial("includes/resources/line_items") %>
+<%= partial("includes/resources/proposals") %>
+<%= partial("includes/resources/proposal_activities") %>
+<%= partial("includes/resources/sections") %>
+<%= partial("includes/resources/webhooks") %>
