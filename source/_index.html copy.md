@@ -59,13 +59,13 @@ curl "https://app.nusii.com/api/v2/proposals"
       "type": "proposals",
       "attributes": {
         "title": "Testing Videos",
-        "account-id": 3,
+        "account_id": 3,
         "status": "draft",
-        "public-id": "-NqDkHbE7FLuuw",
-        "prepared-by-id": 3,
-        "client-id": 5,
-        "sender-id": null
-      }, 
+        "public_id": "-NqDkHbE7FLuuw",
+        "prepared_by_id": 3,
+        "client_id": 5,
+        "sender_id": null
+      },
       "relationships": {
         "sections": {
           "data": [
@@ -79,11 +79,11 @@ curl "https://app.nusii.com/api/v2/proposals"
     }
   ],
   "meta": {
-    "current-page": 2,
-    "next-page": 3,
-    "prev-page": 1,
-    "total-pages": 4,
-    "total-count": 89
+    "current_page": 2,
+    "next_page": 3,
+    "prev_page": 1,
+    "total_pages": 4,
+    "total_count": 89
   }
 }
 ```
