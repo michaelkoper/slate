@@ -12,5 +12,4 @@ gem 'nokogiri', '~> 1.10.8'
 gem 'sass'
 
 gem "middleman-livereload"
-gem 'middleman-s3_sync'
 gem 'mime-types'
