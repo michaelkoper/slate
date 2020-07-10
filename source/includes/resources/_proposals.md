@@ -29,13 +29,13 @@ Nusii::Proposal.list(page: 1, status: 'draft', archived: false)
       "type": "proposals",
       "attributes": {
         "title": "Webdesign yourwebsite.com",
-        "account-id": 3,
+        "account_id": 3,
         "status": "draft",
-        "public-id": "-NqDAkiqpiFLuuw",
-        "prepared-by-id": 3,
-        "client-id": 5,
-        "sender-id": null
-      }, 
+        "public_id": "-NqDAkiqpiFLuuw",
+        "prepared_by_id": 3,
+        "client_id": 5,
+        "sender_id": null
+      },
       "relationships": {
         "sections": {
           "data": [
@@ -49,11 +49,11 @@ Nusii::Proposal.list(page: 1, status: 'draft', archived: false)
     }
   ],
   "meta": {
-    "current-page": 2,
-    "next-page": 3,
-    "prev-page": 1,
-    "total-pages": 4,
-    "total-count": 89
+    "current_page": 2,
+    "next_page": 3,
+    "prev_page": 1,
+    "total_pages": 4,
+    "total_count": 89
   }
 }
 ```
@@ -99,13 +99,13 @@ Nusii::Proposal.get(100)
     "type": "proposals",
     "attributes": {
       "title": "Webdesign yourwebsite.com",
-      "account-id": 3,
+      "account_id": 3,
       "status": "draft",
-      "public-id": "-NqDAkiqpiFLuuw",
-      "prepared-by-id": 3,
-      "client-id": 5,
-      "sender-id": null
-    }, 
+      "public_id": "-NqDAkiqpiFLuuw",
+      "prepared_by_id": 3,
+      "client_id": 5,
+      "sender_id": null
+    },
     "relationships": {
       "sections": {
         "data": [
@@ -159,13 +159,13 @@ Nusii::Proposal.create(
     "type": "proposals",
     "attributes": {
       "title": "Webdesign yourwebsite.com",
-      "account-id": 3,
+      "account_id": 3,
       "status": "draft",
-      "public-id": "-NqDAkiqpiFLuuw",
-      "prepared-by-id": 3,
-      "client-id": 5,
-      "sender-id": null
-    }, 
+      "public_id": "-NqDAkiqpiFLuuw",
+      "prepared_by_id": 3,
+      "client_id": 5,
+      "sender_id": null
+    },
     "relationships": {
       "sections": {
         "data": [
@@ -233,13 +233,13 @@ proposal.save
     "type": "proposals",
     "attributes": {
       "title": "Webdesign yourwebsite.com",
-      "account-id": 3,
+      "account_id": 3,
       "status": "draft",
-      "public-id": "-NqDAkiqpiFLuuw",
-      "prepared-by-id": 3,
-      "client-id": 5,
-      "sender-id": null
-    }, 
+      "public_id": "-NqDAkiqpiFLuuw",
+      "prepared_by_id": 3,
+      "client_id": 5,
+      "sender_id": null
+    },
     "relationships": {
       "sections": {
         "data": [
@@ -305,12 +305,12 @@ proposal.destroy
     "type": "proposals",
     "attributes": {
       "title": "Webdesign yourwebsite.com",
-      "account-id": 3,
+      "account_id": 3,
       "status": "draft",
-      "public-id": "-NqDAkiqpiFLuuw",
-      "prepared-by-id": 3,
-      "client-id": 5,
-      "sender-id": null
+      "public_id": "-NqDAkiqpiFLuuw",
+      "prepared_by_id": 3,
+      "client_id": 5,
+      "sender_id": null
     }
   }
 }
@@ -350,13 +350,13 @@ Nusii.user_agent = 'Your App Name (www.yourapp.com)'
     "type": "proposals",
     "attributes": {
       "title": "Webdesign yourwebsite.com",
-      "account-id": 3,
+      "account_id": 3,
       "status": "draft",
-      "public-id": "-NqDAkiqpiFLuuw",
-      "prepared-by-id": 3,
-      "client-id": 5,
-      "sender-id": null,
-      "archived-at": "2019-01-01T10:00:00.000Z"
+      "public_id": "-NqDAkiqpiFLuuw",
+      "prepared_by_id": 3,
+      "client_id": 5,
+      "sender_id": null,
+      "archived_at": "2019-01-01T10:00:00.000Z"
     }
   }
 }
