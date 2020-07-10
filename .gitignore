@@ -24,3 +24,5 @@ doc/
 .idea/
 
 .s3_sync
+# Vagrant artifacts
+ubuntu-*-console.log
