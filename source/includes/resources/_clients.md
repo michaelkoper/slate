@@ -63,13 +63,6 @@ This endpoint retrieves all clients.
 
 `GET https://app.nusii.com/api/v2/clients`
 
-### Query Parameters
-
-Parameter | Default | Description
---------- | ------- | -----------
-status | null | If not set retrieves all proposals, Possible states are `draft`, `pending`, `accepted`, `rejected`, or `clarification`
-archived | false | If set to true, the result will only include archived proposals.
-
 ## Get a Client
 
 ```shell
