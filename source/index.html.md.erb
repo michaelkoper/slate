@@ -27,7 +27,7 @@ Welcome to the Nusii API! You can use our API to access Nusii API endpoints. All
 curl -H 'User-Agent: Your App Name (www.yourapp.com)' \
   -H 'Content-Type: application/json' \
   -H "Authorization: Token token=YOUR_API_KEY" \
-  "https://app.nusii.com/api/v2/proposals" 
+  "https://app.nusii.com/api/v2/proposals"
 ```
 
 > Make sure to replace `YOUR_API_KEY` with your API key.
@@ -50,4 +50,6 @@ Nusii expects the API key to be included in all API requests to the server in a 
 <%= partial("includes/resources/proposals") %>
 <%= partial("includes/resources/proposal_activities") %>
 <%= partial("includes/resources/sections") %>
+<%= partial("includes/resources/themes") %>
+<%= partial("includes/resources/users") %>
 <%= partial("includes/resources/webhooks") %>
