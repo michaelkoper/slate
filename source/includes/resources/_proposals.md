@@ -193,6 +193,7 @@ Parameter | Mandatory | Type | Description
 title | no | String | Title of the proposal
 client_id | no | ID | Client ID
 client_email | no | String | Fetches the client associated with that email. It creates a new client if there is no client with that email. This is ignored when client_id is set.
+template_id | no | ID | If set, all the sections are copied over from the template
 document_section_title | no | String | Title of the documents section. Default: Documents
 prepared_by_id | no | ID | Prepared by user
 expires_at | no | DateTime | Date the proposal expires
