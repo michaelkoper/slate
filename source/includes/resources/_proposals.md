@@ -394,7 +394,8 @@ Nusii.user_agent = 'Your App Name (www.yourapp.com)'
 ```json
 {
   "status": "pending",
-  "sent_at": "2017-11-10T15:04:07.037Z",
+  "sent_at": "2020-11-17T09:18:32.770Z",
+  "sent_at_in_ms": 1605604712000,
   "sender_id": null,
   "sender_name": null
 }
