@@ -34,7 +34,8 @@ Nusii::Proposal.list(page: 1, status: 'draft', archived: false)
         "public_id": "-NqDAkiqpiFLuuw",
         "prepared_by_id": 3,
         "client_id": 5,
-        "sender_id": null
+        "sender_id": null,
+        "currency": "USD"
       },
       "relationships": {
         "sections": {
@@ -104,7 +105,8 @@ Nusii::Proposal.get(100)
       "public_id": "-NqDAkiqpiFLuuw",
       "prepared_by_id": 3,
       "client_id": 5,
-      "sender_id": null
+      "sender_id": null,
+      "currency": "USD"
     },
     "relationships": {
       "sections": {
@@ -164,7 +166,8 @@ Nusii::Proposal.create(
       "public_id": "-NqDAkiqpiFLuuw",
       "prepared_by_id": 3,
       "client_id": 5,
-      "sender_id": null
+      "sender_id": null,
+      "currency": "USD"
     },
     "relationships": {
       "sections": {
@@ -239,7 +242,8 @@ proposal.save
       "public_id": "-NqDAkiqpiFLuuw",
       "prepared_by_id": 3,
       "client_id": 5,
-      "sender_id": null
+      "sender_id": null,
+      "currency": "USD"
     },
     "relationships": {
       "sections": {
@@ -311,7 +315,8 @@ proposal.destroy
       "public_id": "-NqDAkiqpiFLuuw",
       "prepared_by_id": 3,
       "client_id": 5,
-      "sender_id": null
+      "sender_id": null,
+      "currency": "USD"
     }
   }
 }
@@ -357,6 +362,7 @@ Nusii.user_agent = 'Your App Name (www.yourapp.com)'
       "prepared_by_id": 3,
       "client_id": 5,
       "sender_id": null,
+      "currency": "USD",
       "archived_at": "2019-01-01T10:00:00.000Z"
     }
   }
