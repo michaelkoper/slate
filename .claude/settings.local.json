@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ruby:*)",
+      "Bash(RBENV_VERSION=system rbenv versions:*)",
+      "Bash(RBENV_VERSION=system ls:*)",
+      "Bash(git fetch:*)",
+      "Bash(rm:*)",
+      "Bash(bundle exec:*)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl:*)",
+      "Bash(bundle update:*)",
+      "Bash(bundle show:*)",
+      "Bash(gem list:*)",
+      "Bash(bundle list:*)"
+    ]
+  }
+}
